@@ -7,11 +7,10 @@
 
 #include "targetver.h"
 
-#include <stdio.h>
-#include <tchar.h>
+#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
+// Windows Header Files:
+#include <windows.h>
 
 
 
 // TODO: reference additional headers your program requires here
-//#define SDK_DLL _T("C:\\Program Files\\Logitech Gaming Software\\SDK\\LED\\x86\\LogitechLed.dll")
-#define SDK_DLL _T("LogitechLed.dll")

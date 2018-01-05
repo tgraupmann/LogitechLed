@@ -1,47 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogitechLed", "LogitechLed.vcxproj", "{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}"
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogitechLed", "LogitechLed\LogitechLed.vcxproj", "{7CE35638-C580-4632-A05F-BAE392554959}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleLedUnitTest", "ConsoleLedUnitTest\ConsoleLedUnitTest.vcxproj", "{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleLedUnitTest", "ConsoleLedUnitTest\ConsoleLedUnitTest.vcxproj", "{41D835C9-BDA4-4A0A-BD4E-FC922F177723}"
 	ProjectSection(ProjectDependencies) = postProject
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B} = {8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}
+		{7CE35638-C580-4632-A05F-BAE392554959} = {7CE35638-C580-4632-A05F-BAE392554959}
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|ARM = Debug|ARM
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|ARM = Release|ARM
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Debug|ARM.ActiveCfg = Debug|ARM
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Debug|ARM.Build.0 = Debug|ARM
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Debug|x64.ActiveCfg = Debug|x64
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Debug|x64.Build.0 = Debug|x64
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Debug|x86.ActiveCfg = Debug|Win32
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Debug|x86.Build.0 = Debug|Win32
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Release|ARM.ActiveCfg = Release|ARM
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Release|ARM.Build.0 = Release|ARM
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Release|x64.ActiveCfg = Release|x64
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Release|x64.Build.0 = Release|x64
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Release|x86.ActiveCfg = Release|Win32
-		{8AA4538A-BB2C-4EE8-9957-39A6BCFF268B}.Release|x86.Build.0 = Release|Win32
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Debug|ARM.ActiveCfg = Debug|Win32
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Debug|x64.ActiveCfg = Debug|x64
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Debug|x64.Build.0 = Debug|x64
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Debug|x86.ActiveCfg = Debug|Win32
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Debug|x86.Build.0 = Debug|Win32
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Release|ARM.ActiveCfg = Release|Win32
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Release|x64.ActiveCfg = Release|x64
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Release|x64.Build.0 = Release|x64
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Release|x86.ActiveCfg = Release|Win32
-		{4449D9FC-C7F4-4A25-B475-8D1C327F4BFF}.Release|x86.Build.0 = Release|Win32
+		{7CE35638-C580-4632-A05F-BAE392554959}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CE35638-C580-4632-A05F-BAE392554959}.Debug|Win32.Build.0 = Debug|Win32
+		{7CE35638-C580-4632-A05F-BAE392554959}.Release|Win32.ActiveCfg = Release|Win32
+		{7CE35638-C580-4632-A05F-BAE392554959}.Release|Win32.Build.0 = Release|Win32
+		{41D835C9-BDA4-4A0A-BD4E-FC922F177723}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41D835C9-BDA4-4A0A-BD4E-FC922F177723}.Debug|Win32.Build.0 = Debug|Win32
+		{41D835C9-BDA4-4A0A-BD4E-FC922F177723}.Release|Win32.ActiveCfg = Release|Win32
+		{41D835C9-BDA4-4A0A-BD4E-FC922F177723}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
