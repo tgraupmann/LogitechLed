@@ -10,15 +10,6 @@
 #define LOGITECHLED_API __declspec(dllimport)
 #endif
 
-// This class is exported from the LogitechLed.dll
-class LOGITECHLED_API CLogitechLed {
-public:
-	CLogitechLed(void);
-	// TODO: add your methods here.
-};
-
-extern LOGITECHLED_API int nLogitechLed;
-
 //
 // Logitech Gaming LED SDK
 //

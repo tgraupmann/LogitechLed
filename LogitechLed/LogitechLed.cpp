@@ -5,16 +5,6 @@
 #include "LogitechLed.h"
 
 
-// This is an example of an exported variable
-LOGITECHLED_API int nLogitechLed=0;
-
-// This is the constructor of a class that has been exported.
-// see LogitechLed.h for the class definition
-CLogitechLed::CLogitechLed()
-{
-	return;
-}
-
 extern "C"
 {
 
