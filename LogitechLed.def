@@ -1,7 +1,7 @@
 LIBRARY
 EXPORTS
-	DllRegisterServer @26
-	DllUnregisterServer @27
+	DllRegisterServer PRIVATE
+	DllUnregisterServer PRIVATE
 	LogiGetConfigOptionBool @1
 	LogiGetConfigOptionColor @2
 	LogiGetConfigOptionKeyInput @3

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#define EXPORT_API extern "C"
+#define EXPORT_API extern "C" __declspec( dllexport ) 
 
 //
 // Logitech Gaming LED SDK
